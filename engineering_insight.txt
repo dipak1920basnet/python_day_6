@@ -1,0 +1,8 @@
+#Many bugs are result of incorrect indexing 
+
+numbers = [10, 20, 30]
+numbers[3]  (when list only has 3 elements)
+
+This will result to index errors 
+
+Engineers must always reason about the list size and the boundries. 
