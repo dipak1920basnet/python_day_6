@@ -1,0 +1,28 @@
+in program the error is due to index error 
+this error is caused because it is trying to access the element form the index that does not exists yet. 
+
+we can fix this by either adding the number of values in the list or 
+use correct index to get the value 
+example: 
+    scores = [70, 80, 90]
+
+    for i in range(3):
+        print(scores[i])
+
+    now the max value will be up to 2 giving the correct index order
+
+
+
+in the other program second program there are issue like 
+syntax error like =+ 
+this should be += 
+
+solutions: 
+    numbers = [10, 20, 30]
+
+    total = 0
+
+    for n in numbers:
+        total += n
+
+    print(total)
