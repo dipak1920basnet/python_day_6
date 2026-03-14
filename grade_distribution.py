@@ -4,7 +4,7 @@ def main():
     print(f"A: {A}")
     print(f"B: {B}")
     print(f"C: {C}")
-    print(f"Below 70: {D}")s
+    print(f"Below 70: {D}")
 
 def count_grade(scores):
     A = 0
@@ -20,6 +20,8 @@ def count_grade(scores):
             C += 1
         else:
             D += 1
+    
+    return A,B,C,D
 
 if __name__ == "__main__":
     main()
