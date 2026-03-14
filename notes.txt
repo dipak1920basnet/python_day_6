@@ -1,0 +1,47 @@
+till now we handled individuals variables 
+but with real software we will work with collections of data 
+like:
+list of users 
+logs of events 
+arrays of sensors 
+ML datasets with million of rows. 
+
+List allows the python program to store and process many values efficiently. 
+
+A list is a state that stores multiple values in order. 
+
+example: 
+    numbers = [10, 20, 30, 40]
+
+Concepts: 
+    Index:   0    1    2    3
+    Value:  10   20   30   40
+
+In simpel language the list is the order of a simple collections 
+
+here we access the values with the help of indexed positions 
+
+example: 
+    numbers = [10, 20, 30]
+    print(numbers[0])
+
+one important rule to remember is that the index starts with 0. 
+
+Lists are mutable: 
+    example: 
+        numbers = [10, 20, 30]
+        numbers[1] = 50
+
+    output: 
+        [10, 50, 30]
+
+List can be processed through loops 
+example: 
+    numbers = [10, 20, 30, 40]
+
+    for n in numbers:
+        print(n)
+
+list length: len(list)
+
+** Lists are the foundations of the data processing pipelines. 
