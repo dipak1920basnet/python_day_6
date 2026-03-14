@@ -6,9 +6,10 @@ def main():
     list_len = len(expenses)
 
     print_all_expense(expenses)
-    print(f"total expense: {total_expensess(expenses, list_len)}")
-    print(f"average expense: {average_expense(expenses, list_len)}")
-    print(f"largest expense: {largest_expense(expenses, largest_expense)}")
+    total_expenses = total_expensess(expenses, list_len)
+    print(f"total expense: {total_expenses}")
+    print(f"average expense: {average_expense(total_expenses, list_len)}")
+    print(f"largest expense: {largest_expense(expenses, list_len)}")
 
 
 
